@@ -26,6 +26,8 @@ const toggleNavbar = () => {
             <Link to = "/about">About</Link>
             <Link to = "/book">Book</Link>
             <Link to = "/fleet">Fleet</Link>
+            <Link to = "/contact">Contact</Link>
+            
             </div>
         </div>
         
@@ -34,6 +36,7 @@ const toggleNavbar = () => {
         <Link to = "/about">About</Link>
         <Link to = "/book">Book</Link>
         <Link to = "/fleet">Fleet</Link>
+        <Link to = "/contact">Contact</Link>
         <buttton onClick ={toggleNavbar}>
         <ReorderIcon />
         </buttton>

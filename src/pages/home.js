@@ -4,6 +4,7 @@ import BannerImage from '../assets/mercInterior.jpg'
 import '../styles/home.css'
 
 
+
 function Home() {
   return (
     <div className="home" style={{ backgroundImage: `url(${BannerImage})` }}>
